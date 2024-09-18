@@ -1,11 +1,11 @@
 import React from 'react';
 
-const page = () => {
+const layout = ({children}) => {
     return (
         <div>
-            <h2>This is my login!!</h2>
+            {children}
         </div>
     );
 };
 
-export default page;
+export default layout;
