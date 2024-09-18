@@ -1,5 +1,6 @@
 
 
+import AutoRecord from "./components/Homepage/AutoRecord";
 import Banner from "./components/Homepage/Banner";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
 
       <Banner />
+      <AutoRecord></AutoRecord>
     </div>
   );
 }
